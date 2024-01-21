@@ -2,7 +2,7 @@
 
 ![Screenshoot](./screenshot.png)
 
-**Mudanças:** Optei por utilizar canvas para criar o fogo, pois a geração de elementos dinâmicos consumia muito processamento é tambem.
+**Mudanças:** Optei por utilizar canvas para criar o fogo, pois a geração de elementos dinâmicos consumia muito processamento.
 
 O projeto foi inspirado no vídeo: [Filipe Deschamps](https://youtu.be/fxm8cadCqbs)
 
