@@ -8,7 +8,11 @@ O projeto foi inspirado no vídeo: [Filipe Deschamps](https://youtu.be/fxm8cadCq
 
 ## Créditos
 
-Projeto desenvolvido para fins educativos, visando incentivar a aprendizagem e desbloquear novas habilidades. Utilize o código com responsabilidade, respeitando todos os termos de uso.
+Projeto desenvolvido para fins educativos, visando incentivar a aprendizagem e desbloquear novas habilidades.
+
+Utilize o código com responsabilidade, respeitando todos os termos de uso.
+
+### ThiagoBxK
 
 **Recursos Utilizados:**
 - HTML, CSS, JS
