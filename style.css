@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: #000000;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+}
+
+canvas {
+  border-radius: 8px;
+}
+
+.container .logo {
+  position: absolute;
+  width: 50%;
+  top: -100%;
+  left: 25%;
+  opacity: 0%;
+  animation: slideTo 2s linear forwards;
+}
+
+@keyframes slideTo {
+  100% {
+    opacity: 100%;
+    top: 25%;
+  }
+}
+
+.container .logo img {
+  height: auto;
+  width: 100%;
+}
+
+.container .buttons {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.container .buttons button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #EFEFEF;
+  font-family: 'Montserrat', sans-serif;
+  height: 64px;
+  width: 124px;
+  border-radius: 16px;
+  font-size: 48px;
+  background: rgba(223,79,7, 0.5);
+  
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
