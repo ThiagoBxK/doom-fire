@@ -20,16 +20,6 @@ function renderFire() {
       pixelWidth, pixelHeight
     );
     
-    // Index
-    /*
-    context.fillStyle = 'black';
-    context.font = '12px Arial';
-    context.fillText(cellIndex, 19 + (columnIndex * pixelWidth), 25 + (rowIndex * pixelWidth));
-    
-    //Intensidade do fogo
-    context.fillStyle = 'green';
-    context.font = '10px Arial';
-    context.fillText(firePixels[cellIndex], 35 + (columnIndex * pixelWidth), 25 + (rowIndex * pixelWidth));*/
   }
 
   // Passa por todas as colunas e linhas
