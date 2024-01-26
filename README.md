@@ -20,7 +20,8 @@ Utilize o código com responsabilidade, respeitando todos os termos de uso.
 
 ## Executando Localmente
 
-1. Clone o repositorio git clone https://github.com/ThiagoBxK/doom-fire/edit/main/README.md
+1. Clone o repositorio ```bash
+git clone https://github.com/ThiagoBxK/doom-fire
 2. Abra o arquivo `index.html` em seu navegador.
 
 ## GitHub
