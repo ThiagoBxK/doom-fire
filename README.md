@@ -1,4 +1,4 @@
-# Fogo do Doom
+# 🔥Fogo do Doom🔥
 
 ![Screenshoot](./images/screenshot.png)
 
