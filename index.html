@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>HTML</title>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
+    <title>HTML</title>
 
-<body>
-  
-  <div class="container">
-    <canvas id="canvas" height="400" width="400"></canvas>
-    
-    <div class="logo">
-      <img src="./doom-64-logo.png" alt="Logo" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <canvas id="canvas" height="400" width="400"></canvas>
+
+      <div class="logo">
+        <img src="./images/doom-64-logo.png" alt="Logo" />
+      </div>
+
+      <div class="buttons">
+        <button onclick="fire.intensity -= 0.2">+</button>
+        <button onclick="fire.intensity += 0.2">-</button>
+      </div>
     </div>
-    
-    <div class="buttons">
-      <button onclick="fire.intensity -= 0.2">+</button>
-      <button onclick="fire.intensity += 0.2">-</button>
-    </div>
-  </div>
-  
-  <script src="./index.js"></script>
-</body>
+
+    <script src="./index.js"></script>
+  </body>
 </html>

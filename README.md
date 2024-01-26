@@ -1,6 +1,6 @@
 # Fogo do Doom
 
-![Screenshoot](./screenshot.png)
+![Screenshoot](./images/screenshot.png)
 
 **Mudanças:** Optei por utilizar canvas para criar o fogo, pois a geração de elementos dinâmicos consumia muito processamento.
 
@@ -15,9 +15,11 @@ Utilize o código com responsabilidade, respeitando todos os termos de uso.
 ### ThiagoBxK
 
 **Recursos Utilizados:**
+
 - HTML, CSS, JS
 
 ## Executando Localmente
+
 1. Clone o repositorio
 2. Abra o arquivo `index.html` em seu navegador.
 
