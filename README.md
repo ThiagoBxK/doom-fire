@@ -1,28 +1,29 @@
-# 🔥Fogo do Doom🔥
+
+# 🔥 Doom Fire Algorithm🔥
 
 ![Screenshoot](./preview.gif)
 
-**Mudanças:** Optei por utilizar canvas para criar o fogo, pois a geração de elementos dinâmicos consumia muito processamento.
+Implementação do projeto inspirado no vídeo: [Filipe Deschamps](https://youtu.be/fxm8cadCqbs)
+## Rodando localmente
 
-O projeto foi inspirado no vídeo: [Filipe Deschamps](https://youtu.be/fxm8cadCqbs)
+Clone o projeto
 
-## Créditos
+```bash
+  git clone https://github.com/ThiagoBxK/doom-fire
+```
 
-Projeto desenvolvido para fins educativos, visando incentivar a aprendizagem e desbloquear novas habilidades.
+Entre no diretório do projeto
 
-Utilize o código com responsabilidade, respeitando todos os termos de uso.
+```bash
+  cd doom-fire
+```
 
-### ThiagoBxK
+Abra o arquivo index.html no seu navegador ou instale a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do VSCode.
 
-**Recursos Utilizados:**
+## Stack utilizada
 
-- HTML, CSS, JS
+HTML, CSS, JavaScript
 
-## Executando Localmente
-
-1. Clone o repositorio `git clone https://github.com/ThiagoBxK/doom-fire`
-2. Abra o arquivo `index.html` em seu navegador.
-
-## GitHub
-
-[Repositório no GitHub](https://github.com/ThiagoBxK)
+##
+Projeto desenvolvido para fins educacionais, incentivando a aprendizagem.
+Caso use meu codigo por favor dar os devidos direitos a [@ThiagoBxK](https://github.com/ThiagoBxK)
