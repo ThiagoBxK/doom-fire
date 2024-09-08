@@ -1,39 +1,44 @@
-body {
+/* Fonte Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  user-select: none;
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+  color: #ffffff;
+}
+
+body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 60vh;
-  background: #000000;
+  min-height: 100vh;
+  background: #050505;
 }
 
 .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   position: relative;
   overflow: hidden;
-  position: relative;
-  overflow: hidden;
+  gap: 48px;
 }
 
-canvas {
+#canvas {
   border-radius: 8px;
 }
 
+/* Logo com animação */
 .container .logo {
   position: absolute;
   width: 50%;
   top: -100%;
   left: 25%;
   opacity: 0%;
-  animation: slideTo 2s linear forwards;
-}
-
-@keyframes slideTo {
-  100% {
-    opacity: 100%;
-    top: 25%;
-  }
+  animation: slideDown 1.5s linear forwards;
 }
 
 .container .logo img {
@@ -41,28 +46,51 @@ canvas {
   width: 100%;
 }
 
+/* Animação de deslizamento */
+@keyframes slideDown {
+  to {
+    opacity: 100%;
+    top: 25%;
+  }
+}
+
+/* Estilos dos botões */
 .container .buttons {
-  padding: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
 }
 
-.container .buttons button {
-  background: transparent;
-  border: none;
+button {
+  border-style: none;
   outline: none;
-  color: #EFEFEF;
-  font-family: 'Montserrat', sans-serif;
   height: 64px;
   width: 124px;
   border-radius: 16px;
   font-size: 48px;
-  background: rgba(223,79,7, 0.5);
-  
-  text-align: center;
+  background: rgba(223, 79, 7, 0.5);
+  font-weight: 800;
+}
+
+button:hover {
+  transform: scale(0.95);
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.created-by {
+  position: absolute;
+  bottom: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 12px;
+  font-size: 0.95rem;
+}
+
+.created-by img {
+  filter: invert(1);
 }
