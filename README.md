@@ -1,6 +1,6 @@
 # 🔥Fogo do Doom🔥
 
-![Screenshoot](./images/preview.png)
+![Screenshoot](./preview.gif)
 
 **Mudanças:** Optei por utilizar canvas para criar o fogo, pois a geração de elementos dinâmicos consumia muito processamento.
 
